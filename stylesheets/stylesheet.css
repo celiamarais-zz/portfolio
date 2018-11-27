@@ -409,6 +409,7 @@ Full-Width Styles
 
 .outer {
   max-width: 100%;
+  padding-top: 50px
 }
 
 .inner {
@@ -488,6 +489,10 @@ Small Device Styles
 padding: 20px 40px 20px 40px;*/
   margin: 100px 20px 40px 20px;
   }
+	
+.outer {
+		padding-top: 0;
+	}
 
   h1 {
     font-size: 20px;
