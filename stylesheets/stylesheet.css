@@ -62,10 +62,11 @@ body {
 
 /**Layout**/
 
-.thumb-img {
+.thumb-cell {
 	background-color:#ff0000;
 	background-position: center;
 	padding: 40%;
+	text-align: center;
 }
 
 /**
