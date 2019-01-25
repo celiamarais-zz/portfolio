@@ -4,7 +4,7 @@ by Jason Costello, @jsncostello
 *******************************************************************************/
 
 @import url(github-light.css);
-@import url('https://fonts.googleapis.com/css?family=Rubik');
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500');
 
 /*******************************************************************************
 MeyerWeb Reset
@@ -54,6 +54,7 @@ body {
   background: #fff;
 	color: #999;
 	font-family: sans-serif;
+	font-weight: 400;
 	font-size: 18px;
 	line-height: 1.6;
   letter-spacing: 1px;
