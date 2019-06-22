@@ -137,6 +137,10 @@ color: #212121;
 	z-index: 111;
 }
 
+.header_text .dark {
+	color: #fff;
+}
+
 .site_header .header_text .small_screen_title {	
 	    display: none;
 	}
