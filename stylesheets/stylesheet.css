@@ -5,6 +5,8 @@ by Jason Costello, @jsncostello
 
 @import url(github-light.css);
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap');
+
 
 /*******************************************************************************
 MeyerWeb Reset
@@ -447,13 +449,8 @@ Full-Width Styles
 
 
 h1 {
-  /*font-weight: normal;
-  padding-bottom: 0;
-margin: 0;
-  font-size: 26px;
-  color: #515151;*/
-	
-font-weight: 400;
+font-family: 'Cormorant Garamond', serif;
+font-weight: 300;
     padding-bottom: 20px;
     margin: 0;
     font-size: 46px;
@@ -527,6 +524,7 @@ padding-bottom: 50px;
 }
 	
 .thumbnail .thumb_title {
+	font-family: 'Cormorant Garamond', serif;
 	font-size: 14px;
 	}
 	
