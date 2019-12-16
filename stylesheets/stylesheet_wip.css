@@ -59,19 +59,23 @@ body {
 	font-weight: 300;
 	font-size: 18px;
 	line-height: 1.6;
-  letter-spacing: 1px;
+   letter-spacing: 1px;
+    box-sizing: border-box;
+    background: #fff;
+    color: #444;
+    margin: 0;
 }
-
 
 
 /**Layout**/
 
 .thumb-cell {
-	background-color:#333;
+	background-color:#f9f9f9;
 	background-position: center;
-	padding: 40%;
-	text-align: center;
-	font-family: 'Ibarra Real Nova', serif;
+	padding: 150px;
+	text-align: right;
+    width: 100%;
+    margin: 2px 0;
 }
 
 /**
@@ -117,10 +121,9 @@ color: #212121;
     min-height: 52px;
     z-index: 999;
     width: 100%;
-    background-color: #111;
+    background-color:#222;
     opacity: 0.95;
     font-weight: 400;
-    font-family: 'Ibarra Real Nova', serif;
 }
 
 
@@ -131,15 +134,20 @@ color: #212121;
 
 .header_text {
 	position: fixed;
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 400;
 	top: 0px;
-	left: 0px;
+	left: px;
 	padding: 15px 15px 15px 35px;
 	z-index: 111;
-  font-family: 'Ibarra Real Nova', serif;
+    font-size: 54px;
+    line-height: 76px;
+    max-width: 400px;
+    background-color: #fff;
 }
 
 .header_text .dark {
-	color: #fff;
+	color: #333;
 }
 
 .site_header .header_text .small_screen_title {	
@@ -148,6 +156,7 @@ color: #212121;
 
 .header_text a { 
 	text-decoration: none;
+    color: #777;
 }
 
 .header_text a:hover {
@@ -183,12 +192,12 @@ color: #212121;
 }
 
 .navigation .active {
-	border-bottom: 2px solid #999;
+	color: #fff;
 	/*opacity: 0.4;*/
 }
 
 
-/*
+
 .navigation div:hover {
 	opacity: 1;
 }
@@ -202,7 +211,7 @@ color: #212121;
 }
 
 .navigation div.set_link a {
-	color: #515151;
+	color: #e1e1e1;
 }
 
 .navigation div.set_link a:active {
@@ -210,24 +219,24 @@ color: #212121;
 }
 
 .navigation .active {
-	color: #515151;
+	color: #fff;
 }
 
 .navigation a {
 	text-decoration: none;
-	color: #999;
+	color: #e1e1e1;
 }
 
 .navigation a:hover,
 .navigation a:active {
 	text-decoration: none;
-	color: #515151;
-	border-bottom: 1px solid #515151;
+	color: #e1e1e1;
+	border-bottom: 2px solid #e1e1e1;
 }
 
 .navigation div.active a {
-color: #515151;
-	border-bottom: 2px solid #515151;
+color: #e1e1e1;
+	border-bottom: 2px solid #e1e1e1;
 }
 
 
@@ -249,7 +258,7 @@ a {
 
 a:hover, a:focus {
 	transition: color 0.5s ease;
-	color: #515151;
+	color: #e1e1e1;
 	text-decoration: none;
  }
 
@@ -391,7 +400,7 @@ Full-Width Styles
   position: relative;
   max-width: 980px;
   margin: 120px auto 100px auto;
-  text-align: center;
+  text-align: left;
 }
 
 
@@ -410,6 +419,7 @@ Full-Width Styles
 
 h1 {
 font-family: 'Ibarra Real Nova', serif;
+    font-weight: 400;
     padding-bottom: 20px;
     margin: 0;
     font-size: 46px;
@@ -434,6 +444,7 @@ Small Device Styles
     width: 100%;
     padding: 15px 0 0 0;
     text-align: center;
+    font-size: 14px;
 	}
 	
     .site_header .navigation {
